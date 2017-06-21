@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 85ac9da916f727943bdb1cbbea70ec85
+timeCreated: 1497633202
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: plataformaMediana
+    21300002: piernaDerecha
+    21300004: piernaIzquierda
+    21300006: brazoDerecho
+    21300008: brazoIzquierdo
+    21300010: "pa\xF1uelo"
+    21300012: torso
+    21300014: cabeza
+    21300016: estrella
+    21300018: plataformaGrande
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plataformaMediana
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 656
+        width: 500
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: piernaDerecha
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 681
+        width: 89
+        height: 76
+      alignment: 9
+      pivot: {x: 0.07556084, y: 0.88734835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: piernaIzquierda
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 683
+        width: 84
+        height: 74
+      alignment: 9
+      pivot: {x: 0.8969792, y: 0.89781725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: brazoDerecho
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 958
+        width: 66
+        height: 66
+      alignment: 9
+      pivot: {x: 0.8881796, y: 0.88524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: brazoIzquierdo
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 955
+        width: 66
+        height: 68
+      alignment: 9
+      pivot: {x: 0.13534604, y: 0.89959717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "pa\xF1uelo"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 987
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.88817996, y: 0.5419658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: torso
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 932
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cabeza
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 859
+        width: 201
+        height: 165
+      alignment: 9
+      pivot: {x: 0.472751, y: 0.081751965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estrella
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 954
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: plataformaGrande
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 758
+        width: 1000
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
