@@ -25,8 +25,18 @@ public class PlataformMove : MonoBehaviour {
 			Time.deltaTime * speed			// velocidad de movimiento
 		);
 
-		// 
+		// evaluar si toco punto
+		if ( plataform.transform.position == currentPoint.position ) {
+			pointSelection += 1; // incrementamos para saltar al siguiente puntoFin
 
+			// evaluamos si llego al siguiente punto, resetamos el pointSelection
+			if (pointSelection == points.Length) {
+				pointSelection = 0; // para que reinicie ( vuelva a puntoIni )
+			}
 
+			// jugamos un poco con la cantidad de puntos existente ( para este caso 2 puntos )
+			currentPoint = points [ pointSelection ];
+		} 
+		 
 	}
 }
