@@ -26,15 +26,16 @@ public class PlataformMove : MonoBehaviour {
 		);
 
 		// evaluar si toco punto
+		// Nota: jugamos un poco con la cantidad de puntos existente ( para este caso 2 puntos )
 		if ( plataform.transform.position == currentPoint.position ) {
-			pointSelection += 1; // incrementamos para saltar al siguiente puntoFin
+			pointSelection += 1; // incrementamos para saltar al siguiente
 
-			// evaluamos si llego al siguiente punto, resetamos el pointSelection
+			// evaluamos si llego al puntoFin, resetamos el pointSelection
 			if (pointSelection == points.Length) {
 				pointSelection = 0; // para que reinicie ( vuelva a puntoIni )
 			}
 
-			// jugamos un poco con la cantidad de puntos existente ( para este caso 2 puntos )
+			// indicar nuevo a punto a seguir
 			currentPoint = points [ pointSelection ];
 		} 
 		 
